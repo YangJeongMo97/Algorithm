@@ -7,7 +7,7 @@ using namespace std;
 int solution(int n, int k, vector<int> enemy) {
     int answer = 0;
     int size = enemy.size();
-    priority_queue<int> pq;     // 진행된 라운드 중 유닛이 가장 많은 라운드를 추출하기 위한 자료구조
+    priority_queue<int> pq;     // 진행된 라운드 중 유닛이 가장 많은 라운드를 추출하기 위한 자료형
 
     int used = 0, pow = 0, idx = 0; // 사용된 병사 수, 무적권 잔여량, 진행 중 라운드
     
