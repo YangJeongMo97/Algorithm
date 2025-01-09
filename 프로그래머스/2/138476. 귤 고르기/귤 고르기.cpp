@@ -29,8 +29,7 @@ int solution(int k, vector<int> tangerine) {
     
     for(int i = 0; i < size - k; i++)
     {
-        if(vp[0].second > 1) vp[0].second--;
-        else
+        if(--vp[0].second <= 0)
         {
             vp.erase(vp.begin());
             answer--;
