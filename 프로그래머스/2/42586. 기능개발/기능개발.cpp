@@ -28,7 +28,5 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
         answer.push_back(count(order_list.begin(), order_list.end(), i));
     }
     
-    
-    
     return answer;
 }
